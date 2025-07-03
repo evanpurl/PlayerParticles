@@ -69,7 +69,7 @@ public class PlayerParticles extends RosePlugin {
 
     @Override
     protected void disable() {
-
+        INSTANCE = null;
     }
 
     @Override
